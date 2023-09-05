@@ -19,10 +19,8 @@ MOD BY KANYE
 """
 print(banner)
 
-
-
-
-headers = {
+def funct(cc,mes,ano,cvv):
+  headers = {
     'authority': 'api.stripe.com',
     'accept': 'application/json',
     'accept-language': 'es-ES,es;q=0.9',
@@ -207,7 +205,6 @@ Mes {mes}
 Cvv  : {cvv}
 
 response : {ee}""")
-        
 
 
 
